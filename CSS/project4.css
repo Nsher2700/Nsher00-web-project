@@ -1,26 +1,26 @@
 body {
-    background-color: #eef3ff;
+    background: linear-gradient(to right, #1a1a1a, #2b0033);
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    color: #222222;
+    color: #f0f0f0;
     text-align: center;
 }
 
 nav {
-    background-color: #1f2a44;
+    background-color: #000000;
     padding: 15px;
 }
 
 nav a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
-    margin: 0 12px;
+    margin: 0 15px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #ffd166;
+    color: #ff9900;
 }
 
 main {
@@ -30,56 +30,58 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: #2a2a2a;
     margin: 20px auto;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
+    max-width: 700px;
 }
 
 h1 {
-    color: #1f2a44;
-    font-size: 36px;
+    color: #ff9900;
+    margin-top: 20px;
+    font-size: 2.2em;
 }
 
 h2 {
-    color: #31572c;
-    font-size: 26px;
+    color: #cc66ff;
+    margin-top: 25px;
 }
 
 h3 {
-    color: #7b2cbf;
-    font-size: 22px;
+    color: #ffcc00;
 }
 
 p {
+    color: #f0f0f0;
     font-size: 16px;
     line-height: 1.6;
 }
 
 ul {
     list-style-position: inside;
-    padding: 10px;
+    border-left: 5px solid #cc66ff;
+    padding: 15px;
 }
 
 li {
-    margin: 8px;
-    font-size: 16px;
+    margin-bottom: 8px;
 }
 
 img {
-    width: 350px;
-    height: 220px;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
+    border: 3px solid #ff9900;
     border-radius: 10px;
-    max-width: 100%;
 }
 
 a {
-    color: #0056b3;
+    color: #66ccff;
 }
 
 a:hover {
-    color: #cc5500;
+    color: #ff9900;
 }
 
 form {
@@ -92,18 +94,19 @@ form {
 
 label {
     font-weight: bold;
+    color: #ffcc00;
 }
 
 input {
     padding: 10px;
-    border: 2px solid #cccccc;
+    border: 2px solid #cc66ff;
     border-radius: 6px;
     font-size: 16px;
 }
 
 button {
-    background-color: #1f2a44;
-    color: white;
+    background-color: #ff9900;
+    color: #000000;
     padding: 12px;
     border: none;
     border-radius: 6px;
@@ -113,19 +116,20 @@ button {
 }
 
 button:hover {
-    background-color: #31572c;
+    background-color: #cc66ff;
+    color: #ffffff;
 }
 
 #messageBox {
-    background-color: #f6f6f6;
-    border: 2px solid #31572c;
+    background-color: #1a1a1a;
+    border: 2px solid #ff9900;
     padding: 15px;
     border-radius: 8px;
 }
 
 .attribution {
     font-size: 14px;
-    color: #555555;
+    color: #cccccc;
 }
 
 @media screen and (max-width: 600px) {
