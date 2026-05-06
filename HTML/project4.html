@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4 Personal Favorites Form</title>
+    <link rel="stylesheet" href="../CSS/project4.css">
+</head>
+<body>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../HTML/project3.html">Project 3</a>
+        <a href="project4.html">Project 4</a>
+    </nav>
+
+    <main>
+        <h1>Your Favorites Form</h1>
+
+        <section>
+            <h2>About This Page</h2>
+            <p>This page uses JavaScript to collect a person’s name and a few of their favorite things. After the form is submitted, the page creates a personalized message repeating what you put.</p>
+        </section>
+
+        <section>
+            <h2>Favorite Things Included</h2>
+            <ul>
+                <li>Favorite hobby</li>
+                <li>Favorite song</li>
+                <li>Favorite movie</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Example Image</h2>
+            <img src="../images/hobbies.jpg" alt="A notebook with music, movie, and hobby ideas written down">
+            <p class="attribution">Image source: Add your image attribution here if required.</p>
+        </section>
+
+        <section class="form-section">
+            <h2>Tell Me About Yourself</h2>
+
+            <form id="favoritesForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="hobby">Favorite Hobby:</label>
+                <input type="text" id="hobby" name="hobby" required>
+
+                <label for="song">Favorite Song:</label>
+                <input type="text" id="song" name="song" required>
+
+                <label for="movie">Favorite Movie:</label>
+                <input type="text" id="movie" name="movie" required>
+
+                <button type="submit">Create Message</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Your Personalized Message</h2>
+            <div id="messageBox">
+                <p>Fill out the form to see your message here.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="../JAVASCRIPT/script.js"></script>
+</body>
+</html>
